@@ -1,0 +1,29 @@
+
+header{
+    
+    padding: 4rem;
+    background: lightgray;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 150px;
+    border-radius: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+   align-items: center;
+}
+ul li:last-child{
+background: black;
+color: white;
+padding: .8rem;
+border-radius: 50px;
+}
+
